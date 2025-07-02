@@ -313,13 +313,6 @@ body {
   position: relative;
 }
 
-.about__columns {
-  display: grid;
-  grid-template-columns: 240px auto;
-
-  width: 100%;
-}
-
 .about__columns-text {
   display: flex;
   flex-direction: column;
