@@ -13,15 +13,15 @@
     <header class="header content-section">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item header__menu-item_non-circle">
-            <a class="header__menu-link-inactive" href="#0">главная</a>
+          <li class="header__menu-item header__menu-item-active">
+            <a class="header__menu-link link-active" href="#0">главная</a>
           </li>
 
           <li class="header__menu-item header__menu-item">
             <a class="header__menu-link" href="#0"> посмотреть лоты </a>
           </li>
 
-          <li class="header__menu-item header__menu-item_active">
+          <li class="header__menu-item header__menu-item">
             <a class="header__menu-link" href="#0"> об аукционе </a>
           </li>
         </ul>
@@ -34,7 +34,7 @@
           alt="Черный лого"
         />
       </a>
-      <address class="header__address">
+      <address class="address header__address">
         <a class="address__item text-link" href="tel:+99995555555"
           >+9 999 555 5555</a
         >
@@ -47,27 +47,24 @@
       </address>
     </header>
 
-    <main class="main content-section">
+    <main class="main__content-section">
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligned-text aligned-text_left">ОНО</span>
-          <span class="aligned-text aligned-text_center">ТЕБЕ</span>
-          <span class="aligned-text aligned-text_right">НАДО</span>
+          <p class="aligned-text aligned-text_left">оно</p>
+          <p class="aligned-text aligned-text_center">тебе</p>
+          <p class="aligned-text aligned-text_right">надо</p>
         </h1>
-        <div class="cover__decription">
-          <p class="cover__description-text">АУКЦИОН</p>
-          <p class="cover__description-text">ВЕЩЕЙ</p>
-          <p class="cover__description-text">В</p>
-          <p class="cover__description-text">КОТОРЫЕ</p>
-          <p class="cover__description-text">НИКТО</p>
-          <p class="cover__description-text">НЕ</p>
-          <p class="cover__description-text">ВЕРИЛ</p>
-          <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            аукцион вещей, в которые никто не верил
+          </p>
+
+          <button class="bet-button">сделать ставку</button>
         </div>
       </section>
       <section class="lots content-section">
-        <h2 class="lots__heading">ЛОТЫ</h2>
+        <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a href="#0" class="card-link">
@@ -126,23 +123,23 @@
           <div class="about__columns-image">
             <div class="about__logo-background">
               <img
-                class="header__logo-image-white"
+                class="main__logo-image-white"
                 src="./images/logo-white.svg"
                 alt="Белый лого"
               />
             </div>
           </div>
-          <div class="about__columns-text">
-            <h4 class="about__columns-title">ОБ АУКЦИОНЕ</h4>
+          <article class="about__columns-text">
+            <h2 class="about__columns-title">об аукционе</h2>
             <div class="about__paragraphs">
-              <p class="about__text about__text-right">
+              <p class="about__text about__text-lead">
                 Здесь вы не встретите очередное пафосное собрание невероятно
                 дорогого антиквариата. Наши лоты вообще не должны были попасть
                 ни на один аукцион. Потому что кому нужен дневник
                 девочки-подростка или картина, которую может нарисовать даже
                 ребёнок? Кому нужны все эти странные вещи, созданные любителями?
               </p>
-              <p class="about__text">
+              <p class="about__text about__text-core">
                 Слишком сложные или, наоборот, слишком простые. Опережающие своё
                 время. В пух и прах растерзанные критиками. Непринятые и
                 непонятые. Когда-то они казались просто неудачными. Но, несмотря
@@ -152,7 +149,7 @@
                 эти лоты стали культовыми.
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </section>
     </main>
@@ -191,7 +188,7 @@
           <a href="#0" class="footer__social-link">
             <img
               class="footer__social-icon"
-              src="images/yt.svg"
+              src="./images/yt.svg"
               alt="Логотип Youtube"
             />
           </a>
@@ -200,7 +197,7 @@
           <a href="#0" class="footer__social-link">
             <img
               class="footer__social-icon"
-              src="images/vk.svg"
+              src="./images/vk.svg"
               alt="Логотип Вконтакте"
             />
           </a>
@@ -209,7 +206,7 @@
           <a href="#0" class="footer__social-link">
             <img
               class="footer__social-icon"
-              src="/images/pinterest.svg"
+              src="./images/pinterest.svg"
               alt="Логотип Pinterest"
             />
           </a>
